@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css"> 
+    <title>ESTUDIO JURÍDICO AR</title>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid__header">
+            <header class="header">
+                <a href="./../index.html"><img class="logo" src="../images/logo-banner.jpg"></a>
+            </header>
+        </div>
+        <div class="grid__navbar">
+            <nav class="nav">
+                <ul>
+                    <li><a href="./../index.html">INICIO</a></li>
+                    <li><a href="./nosotros.html">NOSOTROS</a></li>
+                    <li><a href="./servicios.html">SERVICIOS</a></li>
+                    <li><a href="./integrantes.html">INTEGRANTES</a></li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="grid__article">
+            <article class="article">
+                <h1>CONTÁCTENOS</h1>
+                <form class="article__form">
+                    <label for="nombre">Nombre</label>
+                    <br/>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre"/>
+                    <br/>
+                    <label for="apellido">Apellido</label>
+                    <br/>
+                    <input type="text" id="apellido" placeholder="Ingresa tu apellido"/>
+                    <br/>
+                    <label for="numerotel">Número de teléfono</label>
+                    <br/>
+                    <input type="text" id="numerotel" placeholder="Ingresa tu celular" maxlength="10"/>
+                    <br/>
+                    <label for="email">Correo electrónico</label>
+                    <br/>
+                    <input type="text" id="email" placeholder="Ingresa tu email"/>
+                    <br/>
+                    <label>¿Desea recibir notificaciones mediante correo electrónico?</label>
+                    <br/>
+                    <span>Si</span>
+                    <input type="radio" name="opcion" value="Si" />
+                    <span>No</span>
+                    <input type="radio" name="opcion" value="No" />
+                    <br/>
+                    <label>Selecciona una provincia</label>
+                    <br/>
+                    <select>
+                        <option selected="selected">Buenos Aires</option>
+                        <option>Ciudad Autónoma de Buenos Aires</option>
+                        <option>Catamarca</option>
+                        <option>Chaco</option>
+                        <option>Chubut</option>
+                        <option>Córdoba</option>
+                        <option>Corrientes</option>
+                        <option>Entre Ríos</option>
+                        <option>Formosa</option>
+                        <option>Jujuy</option>
+                        <option>La Pampa</option>
+                        <option>La Rioja</option>
+                        <option>Mendoza</option>
+                        <option>Misiones</option>
+                        <option>Neuquén</option>
+                        <option>Río Negro</option>
+                        <option>Salta</option>
+                        <option>San Juan</option>
+                        <option>San Luis</option>
+                        <option>Santa Cruz</option>
+                        <option>Santa Fe</option>
+                        <option>Tierra del Fuego</option>
+                        <option>Tucumán</option>
+                    </select>   
+                    <br/>
+                    <label>¿A cuáles ramas pertenece su consulta?</label>
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Administrativa</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Penal</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Derecho Administrativo</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Derecho Procesal</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Procesal</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Financiera/Tributaria</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Civil</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Comercial</span>            
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Laboral/Social</span>
+                    <br/>
+                    <input type="checkbox" name="aceptar"/>
+                    <span>Otra</span>
+                    <br/>
+                    <label for="consulta">Consulta</label>
+                    <br/>
+                    <textarea id="consulta" rows="15" cols="75" placeholder="Ingresa tu consulta"></textarea>
+                    <br/>
+                    <input type="submit"/>
+                    <input type="reset"/>
+                </form>
+            </article>
+        </div>
+        <div class="grid__footer">
+            <footer class="footer">
+                <ul>
+                    <li><a href="https://www.facebook.com" target="_blank"><img src="../images/01-facebook.png"></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><img src="../images/02-instagram.png"></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank"><img src="../images/03-linkedin.png"></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
