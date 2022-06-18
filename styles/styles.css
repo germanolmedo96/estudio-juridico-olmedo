@@ -236,6 +236,31 @@ ul.slider li:target {
     height: 40px;
 }
 
+/* ANIMACIONES, TRANSFORMACIONES Y TRANSICIONES */
+
+ul.slider li {
+    transition: opacity .5s;
+}
+
+.grid__article {
+    background: linear-gradient(#ffffff, #202124);
+}
+
+.button {
+    transition: all .8s;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.nav ul li {
+    transition: all .7s;
+}
+
+.nav ul li:hover {
+    transform: scale(1.1) translateY(2px);
+}
 
 /* MEDIA QUERIES */
 
