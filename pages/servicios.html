@@ -4,76 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css"> 
-    <title>ESTUDIO JURÍDICO AR</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <!-- CSS only -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>AR - Estudio Jurídico</title>
+
 </head>
+
 <body>
-    <div class="grid">
-        <div class="grid__header">
-            <header class="header">
-                <a href="./../index.html"><img class="logo" src="../images/logo-banner.jpg"></a>
-            </header>
+    
+    <!-- HEADER -->
+
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-5">AMEZAGA / RIVATA / RÍOS & ASOCIADOS</p>
+    </header>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-light p-3 navbar-personalizada">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./../index.html">
+                <img class="logo" src="../images/logo-nuevo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./../index.html">INICIO</a>
+                    <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                    <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                    <a class="nav-link" href="./integrantes.html">INTEGRANTES</a>
+                    <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                </div>
+            </div>
         </div>
-        <div class="grid__navbar">
-            <nav class="nav">
-                <ul>
-                    <li><a href="./../index.html">INICIO</a></li>
-                    <li><a href="./nosotros.html">NOSOTROS</a></li>
-                    <li><a href="./servicios.html">SERVICIOS</a></li>
-                    <li><a href="./integrantes.html">INTEGRANTES</a></li>
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
+    </nav>
+
+    <!-- ARTICLE --> 
+      
+    <article class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+                <h4>DERECHO PÚBLICO</h4>
+            </div>
         </div>
-        <div class="grid__article">
-            <article class="article">
-                <h1>NUESTROS SERVICIOS</h1> 
-                <br>
-                <div class="article__about">
-                    <h2>DERECHO PÚBLICO</h2>     
-                </div>
-                <div class="article__about">
-                    <h3>Derecho Administrativo</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, facilis dolorem repudiandae ullam placeat deserunt consectetur deleniti et veritatis unde, harum, beatae debitis neque quae tempore! Mollitia quos recusandae atque.</p>
-                </div>
-                <div class="article__about">
-                    <h3>Derecho Penal</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati dolores inventore ipsa alias consectetur nostrum sapiente, maxime voluptatum quibusdam minima qui beatae corrupti amet ex vitae quo distinctio hic.</p>
-                </div>
-                <div class="article__about">
-                    <h3>Derecho Procesal</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae nostrum illo quae dolorum sed consectetur velit delectus? Temporibus impedit quas adipisci, ipsa magni omnis aperiam ratione qui nobis ad labore?</p>
-                </div>  
-                <div class="article__about">
-                    <h3>Derecho Financiero y Tributario</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptates saepe totam harum autem adipisci vel, pariatur minus deleniti incidunt. Non praesentium dolorem nostrum molestiae hic ipsa, numquam blanditiis optio.</p>
-                </div>
-                <div class="article__about">
-                    <h2>DERECHO PRIVADO</h2>     
-                </div>                
-                <div class="article__about">
-                    <h3>Derecho Civil</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati dolores inventore ipsa alias consectetur nostrum sapiente, maxime voluptatum quibusdam minima qui beatae corrupti amet ex vitae quo distinctio hic.</p>
-                </div>
-                <div class="article__about">
-                    <h3>Derecho Comercial</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae nostrum illo quae dolorum sed consectetur velit delectus? Temporibus impedit quas adipisci, ipsa magni omnis aperiam ratione qui nobis ad labore?</p>
-                </div>  
-                <div class="article__about">
-                    <h3>Derecho Laboral o Social</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptates saepe totam harum autem adipisci vel, pariatur minus deleniti incidunt. Non praesentium dolorem nostrum molestiae hic ipsa, numquam blanditiis optio.</p>
-                </div>             
-            </article>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho constitucional</h5>
+                <p>Comprende el conjunto de normas e instituciones jurídicas relativas a la organización de los órganos constitucionales y al ejercicio de los derechos y libertades básicas de los ciudadanos.</p>
+            </div>
         </div>
-        <div class="grid__footer">
-            <footer class="footer">
-                <ul>
-                    <li><a href="https://www.facebook.com" target="_blank"><img src="../images/01-facebook.png"></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank"><img src="../images/02-instagram.png"></a></li>
-                    <li><a href="https://www.linkedin.com" target="_blank"><img src="../images/03-linkedin.png"></a></li>
-                </ul>
-            </footer>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho administrativo</h5>
+                <p>Regula la organización y funcionamiento de los poderes y órganos del estado y sus relaciones con los particulares.</p>
+            </div>
         </div>
-    </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho penal</h5>
+                <p>Regula la llamada actividad punitiva (sancionatoria).</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho procesal</h5>
+                <p>Se integra por el conjunto de normas que regulan los procedimientos a través de los cuales se juzga y se ejecuta lo juzgado.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho financiero y tributario</h5>
+                <p>Conjunto de normas que organizan o que estudian los recursos que constituyen la hacienda del Estado y las demás entidades de carácter público y regulan los procedimientos para obtener ingresos y para ordenar los gastos o pagos.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho internacional público</h5>
+                <p>Integrado por las normas que regulan las relaciones jurídicas de cada estado con los demás como miembros de la comunidad internacional.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4>DERECHO PRIVADO</h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho civil</h5>
+                <p>Se integra por el conjunto de normas que regulan la persona, la familia, el patrimonio, las relaciones contractuales y la responsabilidad civil extracontractual.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho comercial</h5>
+                <p>Conjunto de normas que regulan lo relativo al comercio.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho laboral o social</h5>
+                <p>Que regula la relación del trabajador con el empresario o empleador. Y formaría parte del derecho público la parte que regula las reclamaciones en materia de seguridad social.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5>Derecho internacional privado</h5>
+                <p>Regula lo relativo a las relaciones entre personas físicas y jurídicas de diferentes nacionalidades.</p>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+
+    <footer class="container-fluid bg-primary d-flex justify-content-center footer-personalizado">
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="../images/01-facebook.png"></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="../images/02-instagram.png"></a></li>
+            <li><a href="https://www.linkedin.com" target="_blank"><img src="../images/03-linkedin.png"></a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
