@@ -1,0 +1,8 @@
+Para el index y las otras 4 páginas agregué las siguientes keywords: estudio, juridico, cordoba, abogados, denuncias, juez, penal, administrativo, tributario, derecho, publico, privado, financiero, nacional, internacional.
+Para cada página agregué un título y una descripción correspondiente:
+Index: AR - Estudio Jurídico (Brindamos soluciones a través de nuestra experiencia y conocimientos)
+Nosotros: AR - Nosotros (Nuestros valores, la principal característica que nos define)
+Servicios: AR - Servicios (Trabajamos con amplia variedad de servicios para cubrir la mayor demanda solicitada)
+Integrantes: AR - Integrantes (Nuestro equipo de profesionales)
+Contacto: AR - Contacto (Póngase en contacto ante cualquier duda)
+Todas las páginas cuentan con un encabezado principal con etiqueta h1.
